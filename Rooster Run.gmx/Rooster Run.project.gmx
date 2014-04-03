@@ -10,6 +10,8 @@
     <sprites name="Char">
       <sprite>sprites\Char_Rooster_mask</sprite>
       <sprite>sprites\Char_Rooster_spr</sprite>
+      <sprite>sprites\Char_Fox_spr</sprite>
+      <sprite>sprites\Char_Hawk_spr</sprite>
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\Block_spr</sprite>
