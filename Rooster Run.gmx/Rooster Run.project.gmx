@@ -8,6 +8,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Char">
+      <sprite>sprites\Char_Rooster_mask</sprite>
       <sprite>sprites\Char_Rooster_spr</sprite>
     </sprites>
     <sprites name="Blocks">
@@ -28,6 +29,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\Hills_tile</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
