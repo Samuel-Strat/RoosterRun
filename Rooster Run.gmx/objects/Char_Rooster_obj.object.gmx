@@ -99,25 +99,25 @@ E = -1 means the key has been released
             <string>///Basic Tweaks
 
 //how fast the sprite is played
-image_speed = .5
+image_speed = .27
 
 //How high each jump takes you(may take some finnegleing )
-Jump_Strength = 18
+Jump_Strength = 12
 
 //how many times you can jump before you have to touch the ground
 Jump_Limit = 2
 
 //The Speed you walk at
-Speed_Walk = 4
+Speed_Walk = 2
 
 //The Speed you jump at
-Speed_Jump = 6
+Speed_Jump = 3
 
 //The amount you slow down each step
-Xfric = 6
+Xfric = 4
 
 //The amount you accelerate down each step
-Gravity = 4
+Gravity = 2
 </string>
           </argument>
         </arguments>
@@ -223,8 +223,11 @@ else
 //Gravity
 if on_ground()
 {
-    Yspeed = 0
-    Jumped = 0
+    if Yspeed &gt;= 0
+    {
+        Yspeed = 0
+        Jumped = 0
+    }
 }
 
 //Jumping
@@ -239,7 +242,7 @@ if Jumped = Jump_Limit
     E_C = 1
 }
 
-//Walking you go half speed while ducking
+//Walking
 if Jumped &gt; 0
 {Xspeed += Speed_Jump*((E_RIGHT&gt;0)-(E_LEFT&gt;0))}
 else
