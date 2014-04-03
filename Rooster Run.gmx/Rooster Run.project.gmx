@@ -12,7 +12,6 @@
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\Block_spr</sprite>
-      <sprite>sprites\Block_Half_spr</sprite>
       <sprite>sprites\Platform_spr</sprite>
       <sprite>sprites\Slope_R_spr</sprite>
       <sprite>sprites\Slope_L_spr</sprite>
@@ -61,7 +60,6 @@
     <objects name="Blocks">
       <object>objects\Platform_obj</object>
       <object>objects\Block_obj</object>
-      <object>objects\Block_Half_obj</object>
       <object>objects\Steep_R_obj</object>
       <object>objects\Steep_L_obj</object>
       <object>objects\Slope_R_obj</object>

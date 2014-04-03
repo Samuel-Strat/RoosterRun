@@ -144,7 +144,7 @@ Gravity = 4
 // the four is the scale
 
 
-move_it_slant(4)
+move_it_slant(1)
 </string>
           </argument>
         </arguments>
