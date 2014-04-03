@@ -39,32 +39,12 @@ repeat(abs(Yext))
         {
             y += 1
         }
-        else if Ducking = false
-        {
-            y += 1
-            char_duck()
-            y -= 1
-            if !place_meeting(x,y+1,Block_par)
-            {
-                y += 1
-            }
-        }
     }
     if Yext < 0
     {
         if !place_meeting(x,y-1,Block_par)
         {
             y -= 1
-        }
-        else if Ducking = false
-        {
-            y-=1
-            char_duck()
-            y+=1
-            if !place_meeting(x,y-1,Block_par)
-            {
-                y -= 1
-            }
         }
     }
 }

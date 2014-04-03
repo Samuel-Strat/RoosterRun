@@ -8,11 +8,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Char">
-      <sprite>sprites\Char_JHCV_spr</sprite>
-      <sprites name="masks">
-        <sprite>sprites\Char_Stand_msk</sprite>
-        <sprite>sprites\Char_Duck_msk</sprite>
-      </sprites>
+      <sprite>sprites\Char_Rooster_spr</sprite>
     </sprites>
     <sprites name="Blocks">
       <sprite>sprites\Block_spr</sprite>
@@ -37,7 +33,6 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Movement">
-      <script>scripts\char_duck.gml</script>
       <script>scripts\char_push_move.gml</script>
       <script>scripts\move_it.gml</script>
       <script>scripts\move_it_slant.gml</script>
@@ -50,7 +45,6 @@
       <script>scripts\loop_1d.gml</script>
     </scripts>
     <scripts name="Graphics">
-      <script>scripts\image_choose.gml</script>
       <script>scripts\image_choose_ext.gml</script>
     </scripts>
   </scripts>
@@ -58,11 +52,11 @@
     <objects name="System">
       <object>objects\Platform_par</object>
       <object>objects\Block_par</object>
-      <object>objects\Controller_1_obj</object>
+      <object>objects\Controller_obj</object>
       <object>objects\Char_par</object>
     </objects>
     <objects name="Chars">
-      <object>objects\Char_JHCV_obj</object>
+      <object>objects\Char_Rooster_obj</object>
     </objects>
     <objects name="Blocks">
       <object>objects\Platform_obj</object>
